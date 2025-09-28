@@ -10,7 +10,7 @@ import SavedInternships from "./pages/saved.jsx";
 import ApplyPage from "./pages/ApplyPage.jsx";
 import ProtectedRoute from "./components/ProtectedRoute.jsx";
 import "./index.css";
-import Chatbot from "./pages/ChatBot.jsx";
+import Chatbot from "./pages/chatBot.jsx";
 import HomePage from "./pages/HomePage.jsx"
 import ResumePage from "./pages/ResumePage.jsx";
 
