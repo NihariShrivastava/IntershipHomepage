@@ -79,8 +79,8 @@ const governmentLinks = [
 // Navigation Items for the main row (Home, Explore, About, Register, Login)
 const navItems = [
   { label: "Home", path: "/home" },
-  { label: "Explore", path: "/explore" },
-  { label: "Login Out", path: "/login" },
+  { label: "Explore", path: "/resume" },
+  { label: "Logout", path: "/" },
 ];
 
 // --- NAVBAR COMPONENT ---

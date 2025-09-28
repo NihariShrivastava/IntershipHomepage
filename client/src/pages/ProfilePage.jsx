@@ -38,7 +38,7 @@ export default function ProfilePage() {
   }, [user]);
 
   const handleLogout = () => {
-    navigate("/login");
+    navigate("/");
   };
 
   const handlePhotoChange = (e) => {

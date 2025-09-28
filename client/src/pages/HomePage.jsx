@@ -466,7 +466,7 @@ const governmentLinks = [
 // --- END FOOTER DATA & STYLES ---
 
 
-export default function Dashboard() {
+export default function HomePage() {
     const navigate = useNavigate();
     // --- NEW STATE FOR DARK MODE ---
     const [isDarkMode, setIsDarkMode] = useState(false);
@@ -503,12 +503,9 @@ export default function Dashboard() {
 
     // Navigation Items for both desktop and mobile menu
     const navItems = [
-        { label: "Home", path: "/home" }, // Added Home
-        { label: "Explore", path: "/resume" },
-        { label: "Applied", path: "/saved" },
-        { label: "Profile", path: "/profile" },
-        { label: "About", path: "/about" },
-    ];
+        { label: "Register", path: "/signup" },
+        { label: "Login", path: "/login" },
+    ]
 
     // Determine AppBar colors based on mode
     const appBarBg = isDarkMode ? DARK_PAPER_BG : LIGHT_PAPER_BG;
@@ -685,7 +682,7 @@ export default function Dashboard() {
                                     flexDirection: { xs: 'column', sm: 'row' }
                                 }}
                             >
-                                {/* <Button
+                                <Button
                                     variant="contained"
                                     sx={{ ...dashboardBtn }}
                                     onClick={() => navigate("/signup")}
@@ -696,14 +693,13 @@ export default function Dashboard() {
                                     }
                                 >
                                     Register Now
-                                </Button> */}
-                                <Button
+                                </Button>
+                                {/* <Button
                                     variant="outlined"
                                     sx={{ ...dashboardBtn }}
-                                    onClick={() => navigate("/resume")}
                                 >
                                     Browse Internships
-                                </Button>
+                                </Button> */}
                             </Box>
                         </Box>
 

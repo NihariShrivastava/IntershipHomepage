@@ -358,24 +358,7 @@ export default function LoginPage() {
           </Box>
 
           {/* Tab Switcher: Email ID / Mobile No. */}
-          <Box sx={{ display: 'flex', width: '100%', mb: 3 }}>
-            <Button
-              onClick={() => { setLoginMethod("email"); setEmail("demo@example.com"); }}
-              sx={{
-                flex: 1,
-                borderRadius: '8px',
-                bgcolor: loginMethod === 'email' ? CORE_NAVY_COLOR : '#f0f0f0',
-                color: loginMethod === 'email' ? '#fff' : 'text.primary',
-                border: `1px solid ${CORE_NAVY_COLOR}`,
-                '&:hover': {
-                  bgcolor: loginMethod === 'email' ? CORE_NAVY_COLOR : '#e0e0e0',
-                }
-              }}
-            >
-              Email ID
-            </Button>
-            
-          </Box>
+          
 
           <Box component="form" sx={{ width: "100%" }} onSubmit={handleSubmit}>
             {/* Email/Mobile Input */}

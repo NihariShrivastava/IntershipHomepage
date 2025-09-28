@@ -39,12 +39,12 @@ export default function SavedInternships() {
   const navigate = useNavigate();
 
 
-  const handleApply = () => {
-    navigate("/apply");
-  };
+  // const handleApply = () => {
+  //   navigate("/apply");
+  // };
 
   const handleLogout = () => {
-    navigate("/login");
+    navigate("/");
   };
 
   const savedInternships = [
@@ -145,7 +145,7 @@ export default function SavedInternships() {
             <Button sx={{ ...NavyButtonStyles }}  onClick={() => navigate("/home")}>
               Home
             </Button>
-            <Button sx={{ ...NavyButtonStyles }}  onClick={() => navigate("/explore")}>
+            <Button sx={{ ...NavyButtonStyles }}  onClick={() => navigate("/resume")}>
               Explore
             </Button>
             <Button sx={{ ...NavyButtonStyles }}  onClick={() => navigate("/about")}>
@@ -193,10 +193,10 @@ export default function SavedInternships() {
               <BookmarkAddedIcon fontSize="medium" />
             </Avatar>
             <Typography variant="h5" fontWeight="bold" align="center" gutterBottom>
-              Your Saved Internships
+              Applied Internships
             </Typography>
             <Typography variant="body2" color="text.secondary" align="center" sx={{ mb: 3 }}>
-              Here are the internships you bookmarked for later 🚀
+              Here are the internships you have Applied for 🚀
             </Typography>
 
             {/* Cards */}
@@ -233,9 +233,9 @@ export default function SavedInternships() {
                       <Button fullWidth sx={{ ...NavyButtonStyles }} onClick={() => handleOpen(internship)}>
                         View Details
                       </Button>
-                      <Button onClick={handleApply} fullWidth sx={{ ...NavyButtonStyles}}>
+                      {/* <Button onClick={handleApply} fullWidth sx={{ ...NavyButtonStyles}}>
                         Apply Now
-                      </Button>
+                      </Button> */}
                     </CardActions>
                   </Card>
                 </Grid>
