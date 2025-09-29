@@ -505,6 +505,7 @@ export default function HomePage() {
     const navItems = [
         { label: "Register", path: "/signup" },
         { label: "Login", path: "/login" },
+        { label: " Select Language", path: "/login" },
     ]
 
     // Determine AppBar colors based on mode
