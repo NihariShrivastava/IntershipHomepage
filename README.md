@@ -153,8 +153,8 @@ http://localhost:3000
 | **Pulastya Bhagwat**    | Team Leader / Machine Learning Engineer | Model development, semantic matching logic, FastAPI integration |
 | **Viraj Gupta**         | Backend Developer                       | Node.js APIs, Firebase integration, server-side routing         |
 | **Vishesh Dwivedi**     | Backend Developer                       | API optimization, middleware handling, database management      |
-| **Nihari Shrivastava**  | Frontend Developer                      | React components, UI responsiveness, styling                    |
-| **Alok Singh Kushwaha** | Frontend Developer                      | Page structure, interactive design, animations                  |
+| **Nihari Shrivastava**  | Frontend Developer                      | Page structure, interactive design, React component             |
+| **Alok Singh Kushwaha** | Frontend Developer                      | Animations, UI responsiveness, styling                          | 
 | **Prerna Pandey**       | Machine Learning Developer              | Data preprocessing, model fine-tuning, recommendation logic     |
 
 ---
