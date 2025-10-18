@@ -231,7 +231,7 @@ const teamMembers = [
   { name: "Nihari Shrivastava", role: "Frontend Developer", photo: nihariPhoto },
   { name: "Alok Singh Kushwaha", role: "Frontend Developer", photo: alokPhoto },
   { name: "Pulastya Bhagwat", role: "ML Developer", photo: pulastyaPhoto },
-  { name: "Prerna Pandey", role: "ML Developer", photo: prernaPhoto },
+  { name: "Prerna Pandey", role: "UI/UX Designer", photo: prernaPhoto },
 ];
 
 export default function AboutUs() {
