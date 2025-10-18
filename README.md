@@ -155,7 +155,7 @@ http://localhost:3000
 | **Vishesh Dwivedi**     | Backend Developer                       | API optimization, middleware handling, database management      |
 | **Nihari Shrivastava**  | Frontend Developer                      | Page structure, interactive design, React component             |
 | **Alok Singh Kushwaha** | Frontend Developer                      | Animations, UI responsiveness, styling                          | 
-| **Prerna Pandey**       | UI/UX designer                          | designed basic structure and icons on figma                     |
+| **Prerna Pandey**       | UI/UX designer                          | designed initial structure and icons on figma                   |
 
 ---
 
