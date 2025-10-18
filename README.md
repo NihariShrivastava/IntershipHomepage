@@ -96,8 +96,6 @@ Database (Firebase Firestore + Authentication)
 
 ## 🖼️ UI Walkthrough
 
-🎥 *Highlights from the Demo Video:*
-
 - **Login Page** → Secure entry with dark/light mode toggle  
 - **Home Page** → Explore, Applied, Profile & About sections  
 - **Explore Page** → Manual search + AI Resume Analyzer  
