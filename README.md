@@ -148,14 +148,14 @@ http://localhost:3000
 
 ### 👥 Team ThinkBots
 
-| Name                    | Role                                    | Responsibilities                                                |
-| ----------------------- | --------------------------------------- | --------------------------------------------------------------- |
-| **Pulastya Bhagwat**    | Team Leader / Machine Learning Engineer | Model development, semantic matching logic, FastAPI integration |
-| **Viraj Gupta**         | Backend Developer                       | Node.js APIs, Firebase integration, server-side routing         |
-| **Vishesh Dwivedi**     | Backend Developer                       | API optimization, middleware handling, database management      |
-| **Nihari Shrivastava**  | Frontend Developer                      | Page structure, interactive design, React component             |
-| **Alok Singh Kushwaha** | Frontend Developer                      | Animations, UI responsiveness, styling                          | 
-| **Prerna Pandey**       | UI/UX designer                          | Designed initial structure and icons on figma                   |
+| Name                    | Role                         | Responsibilities                                                             |
+| ----------------------- | ---------------------------- | ---------------------------------------------------------------------------- |
+| **Pulastya Bhagwat**    | Machine Learning Engineer    | AI model design adn fine tuned, FastAPI integration, Semantic matching logic |
+| **Viraj Gupta**         | Backend Developer            | Node.js APIs, Firebase integration, server-side routing                      |
+| **Vishesh Dwivedi**     | Backend Developer            | API optimization, middleware handling, database management                   |
+| **Nihari Shrivastava**  | Frontend Developer           | Page structure, interactive design, React component                          |
+| **Alok Singh Kushwaha** | Frontend Developer           | Animations, UI responsiveness, styling                                       | 
+| **Prerna Pandey**       | UI/UX designer               | Designed initial structure and icons on figma                                |
 
 ---
 
