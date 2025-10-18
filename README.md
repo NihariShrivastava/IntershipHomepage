@@ -121,6 +121,52 @@ Database (Firebase Firestore + Authentication)
 ## 🧑‍💻 Installation & Setup
 
 ### 1. Clone the repository
-```bash
+```
 git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
+```
+
+### 2. Frontend Setup
+```
+cd client
+npm install
+npm start
+```
+
+### 3. Backend Setup
+```
+cd server
+npm install
+node server.js
+```
+
+### 4. Open the Application
+```
+http://localhost:3000
+```
+---
+
+### 👥 Team ThinkBots
+
+| Name                    | Role                                    | Responsibilities                                                |
+| ----------------------- | --------------------------------------- | --------------------------------------------------------------- |
+| **Pulastya Bhagwat**    | Team Leader / Machine Learning Engineer | Model development, semantic matching logic, FastAPI integration |
+| **Viraj Gupta**         | Backend Developer                       | Node.js APIs, Firebase integration, server-side routing         |
+| **Vishesh Dwivedi**     | Backend Developer                       | API optimization, middleware handling, database management      |
+| **Nihari Shrivastava**  | Frontend Developer                      | React components, UI responsiveness, styling                    |
+| **Alok Singh Kushwaha** | Frontend Developer                      | Page structure, interactive design, animations                  |
+| **Prerna Pandey**       | Machine Learning Developer              | Data preprocessing, model fine-tuning, recommendation logic     |
+
+---
+
+### 🏁 Future Scope
+- Expand to real-time internship data via API integration
+- Develop a native mobile app (React Native)
+- Add an AI Career Coach chatbot for skill-building guidance
+- Integrate with government education and employment portals
+- Voice-enabled chatbot for accessibility
+
+---
+
+### 📜 License
+**This project is licensed under the MIT License — feel free to use and improve upon it!**
